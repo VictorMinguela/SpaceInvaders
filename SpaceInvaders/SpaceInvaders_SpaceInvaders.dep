@@ -1,0 +1,63 @@
+Dependencies for Project 'SpaceInvaders', Target 'SpaceInvaders': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\startup.s)(0x57020C08)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -ID:\Keil5\ARM\RV31\INC-ID:\Keil5\ARM\CMSIS\Include-ID:\Keil5\ARM\INC\Luminary--pd "__UVISION_VERSION SETA 535"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\random.s)(0x5B35586A)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -ID:\Keil5\ARM\RV31\INC-ID:\Keil5\ARM\CMSIS\Include-ID:\Keil5\ARM\INC\Luminary--pd "__UVISION_VERSION SETA 535"--list .\random.lst --xref -o .\random.o --depend .\random.d)
+F (.\SpaceInvaders.c)(0x62CF065D)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-ID:\Keil5\ARM\RV31\INC-ID:\Keil5\ARM\CMSIS\Include-ID:\Keil5\ARM\INC\Luminary-D__UVISION_VERSION="535" -Drvmdk -DPART_LM4F120H5QR-o .\spaceinvaders.o --omf_browse .\spaceinvaders.crf --depend .\spaceinvaders.d)
+I (..//tm4c123gh6pm.h)(0x51D4D322)
+I (ST7735.h)(0x62994121)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x62697C68)
+I (Sound.h)(0x62A9F8A5)
+I (PLL.h)(0x62994166)
+I (Random.h)(0x54A1960A)
+I (TExaS.h)(0x569BD3B6)
+I (Images.h)(0x62B484C1)
+I (ADC.h)(0x62A0CB1F)
+I (BSP.h)(0x57E5341C)
+I (OS.h)(0x57FB1630)
+I (CortexM.h)(0x57E53468)
+F (.\TExaS.c)(0x569BD3D6)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-ID:\Keil5\ARM\RV31\INC-ID:\Keil5\ARM\CMSIS\Include-ID:\Keil5\ARM\INC\Luminary-D__UVISION_VERSION="535" -Drvmdk -DPART_LM4F120H5QR-o .\texas.o --omf_browse .\texas.crf --depend .\texas.d)
+I (TExaS.h)(0x569BD3B6)
+F (.\ST7735.c)(0x62B63BDF)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-ID:\Keil5\ARM\RV31\INC-ID:\Keil5\ARM\CMSIS\Include-ID:\Keil5\ARM\INC\Luminary-D__UVISION_VERSION="535" -Drvmdk -DPART_LM4F120H5QR-o .\st7735.o --omf_browse .\st7735.crf --depend .\st7735.d)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x6025F664)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x62697C68)
+I (ST7735.h)(0x62994121)
+I (../inc/tm4c123gh6pm.h)(0x5388D0EA)
+F (.\ST7735.h)(0x62994121)()
+F (.\PLL.c)(0x6299415A)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-ID:\Keil5\ARM\RV31\INC-ID:\Keil5\ARM\CMSIS\Include-ID:\Keil5\ARM\INC\Luminary-D__UVISION_VERSION="535" -Drvmdk -DPART_LM4F120H5QR-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x62697C68)
+I (PLL.h)(0x62994166)
+I (../inc/tm4c123gh6pm.h)(0x5388D0EA)
+F (.\PLL.h)(0x62994166)()
+F (.\Images.h)(0x62B484C1)()
+F (.\Sound.c)(0x62CF0746)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-ID:\Keil5\ARM\RV31\INC-ID:\Keil5\ARM\CMSIS\Include-ID:\Keil5\ARM\INC\Luminary-D__UVISION_VERSION="535" -Drvmdk -DPART_LM4F120H5QR-o .\sound.o --omf_browse .\sound.crf --depend .\sound.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x62697C68)
+I (DAC.h)(0x62994426)
+I (Sound.h)(0x62A9F8A5)
+I (..//tm4c123gh6pm.h)(0x51D4D322)
+F (.\Sound.h)(0x62A9F8A5)()
+F (.\DAC.c)(0x62994413)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-ID:\Keil5\ARM\RV31\INC-ID:\Keil5\ARM\CMSIS\Include-ID:\Keil5\ARM\INC\Luminary-D__UVISION_VERSION="535" -Drvmdk -DPART_LM4F120H5QR-o .\dac.o --omf_browse .\dac.crf --depend .\dac.d)
+I (DAC.h)(0x62994426)
+I (..//tm4c123gh6pm.h)(0x51D4D322)
+F (.\DAC.h)(0x62994426)()
+F (.\SwitchLED.c)(0x62A9FBEA)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-ID:\Keil5\ARM\RV31\INC-ID:\Keil5\ARM\CMSIS\Include-ID:\Keil5\ARM\INC\Luminary-D__UVISION_VERSION="535" -Drvmdk -DPART_LM4F120H5QR-o .\switchled.o --omf_browse .\switchled.crf --depend .\switchled.d)
+F (.\SwitchLED.h)(0x62A9FBEB)()
+F (.\ADC.c)(0x62A0CD9F)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-ID:\Keil5\ARM\RV31\INC-ID:\Keil5\ARM\CMSIS\Include-ID:\Keil5\ARM\INC\Luminary-D__UVISION_VERSION="535" -Drvmdk -DPART_LM4F120H5QR-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
+I (ADC.h)(0x62A0CB1F)
+I (..//tm4c123gh6pm.h)(0x51D4D322)
+F (.\ADC.h)(0x62A0CB1F)()
+F (.\os.c)(0x62CF077E)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-ID:\Keil5\ARM\RV31\INC-ID:\Keil5\ARM\CMSIS\Include-ID:\Keil5\ARM\INC\Luminary-D__UVISION_VERSION="535" -Drvmdk -DPART_LM4F120H5QR-o .\os.o --omf_browse .\os.crf --depend .\os.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x62697C68)
+I (os.h)(0x57FB1630)
+I (CortexM.h)(0x57E53468)
+I (BSP.h)(0x57E5341C)
+I (../inc/tm4c123gh6pm.h)(0x5388D0EA)
+F (.\os.h)(0x57FB1630)()
+F (.\BSP.c)(0x62B63A49)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-ID:\Keil5\ARM\RV31\INC-ID:\Keil5\ARM\CMSIS\Include-ID:\Keil5\ARM\INC\Luminary-D__UVISION_VERSION="535" -Drvmdk -DPART_LM4F120H5QR-o .\bsp.o --omf_browse .\bsp.crf --depend .\bsp.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x62697C68)
+I (BSP.h)(0x57E5341C)
+I (../inc/tm4c123gh6pm.h)(0x5388D0EA)
+F (.\BSP.h)(0x57E5341C)()
+F (.\CortexM.c)(0x57E53456)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-ID:\Keil5\ARM\RV31\INC-ID:\Keil5\ARM\CMSIS\Include-ID:\Keil5\ARM\INC\Luminary-D__UVISION_VERSION="535" -Drvmdk -DPART_LM4F120H5QR-o .\cortexm.o --omf_browse .\cortexm.crf --depend .\cortexm.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x62697C68)
+F (.\CortexM.h)(0x57E53468)()
+F (.\osasm.s)(0x628C0C82)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -ID:\Keil5\ARM\RV31\INC-ID:\Keil5\ARM\CMSIS\Include-ID:\Keil5\ARM\INC\Luminary--pd "__UVISION_VERSION SETA 535"--list .\osasm.lst --xref -o .\osasm.o --depend .\osasm.d)
